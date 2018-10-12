@@ -11,4 +11,9 @@ int main(){
     string word;
     while (cin >> word) vec.push_back(word);
 
+    //Sort string vector in reverse order
+    sort(vec.end(), vec.begin());
+
+    
+
 }
