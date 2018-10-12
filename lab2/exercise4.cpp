@@ -14,6 +14,9 @@ int main(){
     //Sort string vector in reverse order
     sort(vec.end(), vec.begin());
 
-    
+    //Print each word in vector and its size
+    for(int i = 0; i < vec.size(); i++){
+        cout << vec[i] << " of size: " << vec[i].size() << endl; 
+    }
 
 }
