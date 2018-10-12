@@ -5,7 +5,6 @@
 using std::cin; using std::cout; using std::endl;
 using std::setprecision; using std::string; using std::streamsize;
 int main(){
-
     cout << "Please enter your first name: ";
     string name;
     cin >> name;
@@ -23,9 +22,13 @@ int main(){
         ++count;
         sum += x;
     }
+    if(count == 0){
+        cout << "You must enter at least one homework grade in order to successfully compute the average." << endl;
+        return 0;
+    }
     //write the result
     streamsize prec = cout.precision();
-    cout << "Your final grade is " << setprecision(3) << 0.2 * midterm + 0.4 * final * 0.4 * sum / count << setprecision(prec) << endl;
+    cout << "Your final grade is " << setprecision(3) << 0.2 * midterm + 0.4 * final + 0.4 * sum / count << setprecision(prec) << endl;
 
     return 0;
 }
