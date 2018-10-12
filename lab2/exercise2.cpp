@@ -11,8 +11,10 @@ int main(){
     string word;
     while (cin >> word) vec.push_back(word);
 
-    //Sort string array
+    //Sort string vector
     sort(vec.begin(), vec.end());
 
+
+    
 
 }
