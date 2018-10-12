@@ -19,7 +19,7 @@ int main(){
     }
 
     //Print largest and smallest words and their lengths
-    int maxLen = max.size(), minLen min.size();
+    int maxLen = max.size(), minLen = min.size();
     cout << "smallest word: " << min << " of size " << minLen << endl;
     cout << "largest word: " << max << " of size " << maxLen << endl;
 
