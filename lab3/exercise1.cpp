@@ -32,14 +32,6 @@ int main() {
         cout << endl;
     }
     cout << endl;
-    /*for(int r = 12; r > 0; r--){
-        for(int c = 0; c < 12; c++){
-            if((r==1 && c>0) || (c==11 && r<12) || r==c) cout << "+";
-            else cout << " ";
-        }
-        cout << endl;
-    }*/
-    //string s = "";
     for(int i = 0; i < 6; i++){
         string s(i,'+');
         cout << s << endl;
