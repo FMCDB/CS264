@@ -26,9 +26,7 @@ int main() {
         //invariant: we have written c characters so far in the current row
         while(c != cols){
                //are we on the border
-                if(r == 0 || r == rows - 1 || c == 0 || c == cols-1)
-                    cout << "+";
-                else cout << " ";
+                cout << "+";
                 ++c;
         }
         cout << endl;
