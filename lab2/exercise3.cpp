@@ -23,4 +23,6 @@ int main(){
     cout << "smallest word: " << min << " of size " << minLen << endl;
     cout << "largest word: " << max << " of size " << maxLen << endl;
 
+    return 0;
+
 }
